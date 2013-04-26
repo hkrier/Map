@@ -1,0 +1,717 @@
+body {
+	margin: 40px;
+	background-color: black;
+}
+
+#container {
+	width: 904px;
+	background-color: #43A2CA;
+	margin: 0 auto;
+}
+
+#map {
+	height: 598px;
+	width: 904px;
+	background: url('../img/usa_blank.png');
+	position: relative;
+}
+
+#ca {
+	width: 123px;
+	height: 209px;
+	position: absolute;
+	top: 143px;
+	left: 49px;
+	background: url('../img/ca.png');
+	opacity: 0.2;
+}
+
+#ca:hover {
+	opacity: 1;
+}
+
+#or {
+	width: 123px;
+	height: 101px;
+	position: absolute;
+	top: 67px;
+	left: 59px;
+	background: url('../img/or.png');
+	opacity: 0.2;
+}
+
+#or:hover {
+	opacity: 1;
+}
+
+#wa {
+	width: 99px;
+	height: 73px;
+	position: absolute;
+	top: 19px;
+	left: 89px;
+	background: url('../img/wa.png');
+	opacity: 0.2;
+}
+
+#wa:hover {
+	opacity: 1;
+}
+
+#id {
+	width: 91px;
+	height: 147px;
+	position: absolute;
+	top: 37px;
+	left: 160px;
+	background: url('../img/id.png');
+	opacity: 0.2;
+}
+
+#id:hover {
+	opacity: 1;
+}
+
+#nv {
+	width: 97px;
+	height: 148px;
+	position: absolute;
+	top: 159px;
+	left: 105px;
+	background: url('../img/nv.png');
+	opacity: 0.2;
+}
+
+#nv:hover {
+	opacity: 1;
+}
+
+#az {
+	width: 103px;
+	height: 121px;
+	position: absolute;
+	top: 272px;
+	left: 156px;
+	background: url('../img/az.png');
+	opacity: 0.2;
+}
+
+#az:hover {
+	opacity: 1;
+}
+
+#ut {
+	width: 86px;
+	height: 107px;
+	position: absolute;
+	top: 177px;
+	left: 184px;
+	background: url('../img/ut.png');
+	opacity: 0.2;
+}
+
+#ut:hover {
+	opacity: 1;
+}
+
+#mt {
+	width: 156px;
+	height: 99px;
+	position: absolute;
+	top: 39px;
+	left: 198px;
+	background: url('../img/mt.png');
+	opacity: 0.2;
+}
+
+#mt:hover {
+	opacity: 1;
+}
+
+#wy {
+	width: 107px;
+	height: 88px;
+	position: absolute;
+	top: 127px;
+	left: 241px;
+	background: url('../img/wy.png');
+	opacity: 0.2;
+}
+
+#wy:hover {
+	opacity: 1;
+}
+
+#co {
+	width: 111px;
+	height: 88px;
+	position: absolute;
+	top: 207px;
+	left: 260px;
+	background: url('../img/co.png');
+	opacity: 0.2;
+}
+
+#co:hover {
+	opacity: 1;
+}
+
+#nm {
+	width: 107px;
+	height: 110px;
+	position: absolute;
+	top: 285px;
+	left: 245px;
+	background: url('../img/nm.png');
+	opacity: 0.2;
+}
+
+#nm:hover {
+	opacity: 1;
+}
+
+#tx {
+	width: 214px;
+	height: 207px;
+	position: absolute;
+	top: 305px;
+	left: 286px;
+	background: url('../img/tx.png');
+	opacity: 0.2;
+}
+
+#tx:hover {
+	opacity: 1;
+}
+
+#ak {
+	width: 168px;
+	height: 134px;
+	position: absolute;
+	top: 426px;
+	left: 171px;
+	background: url('../img/ak.png');
+	opacity: 0.2;
+}
+
+#ak:hover {
+	opacity: 1;
+}
+
+#hi {
+	width: 98px;
+	height: 61px;
+	position: absolute;
+	top: 424px;
+	left: 27px;
+	background: url('../img/hi.png');
+	opacity: 0.2;
+}
+
+#hi:hover {
+	opacity: 1;
+}
+
+#ok {
+	width: 133px;
+	height: 69px;
+	position: absolute;
+	top: 294px;
+	left: 351px;
+	background: url('../img/ok.png');
+	opacity: 0.2;
+}
+
+#ok:hover {
+	opacity: 1;
+}
+
+#ks {
+	width: 114px;
+	height: 61px;
+	position: absolute;
+	top: 237px;
+	left: 366px;
+	background: url('../img/ks.png');
+	opacity: 0.2;
+}
+
+#ks:hover {
+	opacity: 1;
+}
+
+#ne {
+	width: 126px;
+	height: 62px;
+	position: absolute;
+	top: 177px;
+	left: 342px;
+	background: url('../img/ne.png');
+	opacity: 0.2;
+}
+
+#ne:hover {
+	opacity: 1;
+}
+
+#sd {
+	width: 107px;
+	height: 67px;
+	position: absolute;
+	top: 120px;
+	left: 345px;
+	background: url('../img/sd.png');
+	opacity: 0.2;
+}
+
+#sd:hover {
+	opacity: 1;
+}
+
+#nd {
+	width: 101px;
+	height: 63px;
+	position: absolute;
+	top: 62px;
+	left: 350px;
+	background: url('../img/nd.png');
+	opacity: 0.2;
+}
+
+#nd:hover {
+	opacity: 1;
+}
+
+#mn {
+	width: 98px;
+	height: 107px;
+	position: absolute;
+	top: 65px;
+	left: 443px;
+	background: url('../img/mn.png');
+	opacity: 0.2;
+}
+
+#mn:hover {
+	opacity: 1;
+}
+
+#ia {
+	width: 93px;
+	height: 61px;
+	position: absolute;
+	top: 169px;
+	left: 450px;
+	background: url('../img/ia.png');
+	opacity: 0.2;
+}
+
+#ia:hover {
+	opacity: 1;
+}
+
+#mo {
+	width: 102px;
+	height: 88px;
+	position: absolute;
+	top: 226px;
+	left: 463px;
+	background: url('../img/mo.png');
+	opacity: 0.2;
+}
+
+#mo:hover {
+	opacity: 1;
+}
+
+#ar {
+	width: 76px;
+	height: 70px;
+	position: absolute;
+	top: 305px;
+	left: 481px;
+	background: url('../img/ar.png');
+	opacity: 0.2;
+}
+
+#ar:hover {
+	opacity: 1;
+}
+
+#la {
+	width: 75px;
+	height: 75px;
+	position: absolute;
+	top: 373px;
+	left: 491px;
+	background: url('../img/la.png');
+	opacity: 0.2;
+}
+
+#la:hover {
+	opacity: 1;
+}
+
+#ms {
+	width: 54px;
+	height: 94px;
+	position: absolute;
+	top: 332px;
+	left: 532px;
+	background: url('../img/ms.png');
+	opacity: 0.2;
+}
+
+#ms:hover {
+	opacity: 1;
+}
+
+#al {
+	width: 58px;
+	height: 94px;
+	position: absolute;
+	top: 328px;
+	left: 583px;
+	background: url('../img/al.png');
+	opacity: 0.2;
+}
+
+#al:hover {
+	opacity: 1;
+}
+
+#ga {
+	width: 83px;
+	height: 85px;
+	position: absolute;
+	top: 323px;
+	left: 623px;
+	background: url('../img/ga.png');
+	opacity: 0.2;
+}
+
+#ga:hover {
+	opacity: 1;
+}
+
+#fl {
+	width: 138px;
+	height: 105px;
+	position: absolute;
+	top: 400px;
+	left: 599px;
+	background: url('../img/fl.png');
+	opacity: 0.2;
+}
+
+#fl:hover {
+	opacity: 1;
+}	
+
+#sc {
+	width: 77px;
+	height: 58px;
+	position: absolute;
+	top: 315px;
+	left: 659px;
+	background: url('../img/sc.png');
+	opacity: 0.2;
+}
+
+#sc:hover {
+	opacity: 1;
+}	
+
+#nc {
+	width: 128px;
+	height: 59px;
+	position: absolute;
+	top: 274px;
+	left: 642px;
+	background: url('../img/nc.png');
+	opacity: 0.2;
+}
+
+#nc:hover {
+	opacity: 1;
+}
+
+#tn {
+	width: 127px;
+	height: 46px;
+	position: absolute;
+	top: 288px;
+	left: 552px;
+	background: url('../img/tn.png');
+	opacity: 0.2;
+}
+
+#tn:hover {
+	opacity: 1;
+}
+
+#ky {
+	width: 107px;
+	height: 58px;
+	position: absolute;
+	top: 246px;
+	left: 564px;
+	background: url('../img/ky.png');
+	opacity: 0.2;
+}
+
+#ky:hover {
+	opacity: 1;
+}
+
+#oh {
+	width: 64px;
+	height: 67px;
+	position: absolute;
+	top: 185px;
+	left: 620px;
+	background: url('../img/oh.png');
+	opacity: 0.2;
+}
+
+#oh:hover {
+	opacity: 1;
+}	
+
+#in {
+	width: 46px;
+	height: 80px;
+	position: absolute;
+	top: 195px;
+	left: 580px;
+	background: url('../img/in.png');
+	opacity: 0.2;
+}
+
+#in:hover {
+	opacity: 1;
+}	
+
+#il {
+	width: 61px;
+	height: 105px;
+	position: absolute;
+	top: 186px;
+	left: 525px;
+	background: url('../img/il.png');
+	opacity: 0.2;
+}
+
+#il:hover {
+	opacity: 1;
+}	
+
+#wi {
+	width: 77px;
+	height: 83px;
+	position: absolute;
+	top: 105px;
+	left: 501px;
+	background: url('../img/wi.png');
+	opacity: 0.2;
+}
+
+#wi:hover {
+	opacity: 1;
+}	
+
+#mi {
+	width: 115px;
+	height: 107px;
+	position: absolute;
+	top: 91px;
+	left: 535px;
+	background: url('../img/mi.png');
+	opacity: 0.2;
+}
+
+#mi:hover {
+	opacity: 1;
+}
+
+#wv {
+	width: 69px;
+	height: 59px;
+	position: absolute;
+	top: 216px;
+	left: 660px;
+	background: url('../img/wv.png');
+	opacity: 0.2;
+}
+
+#wv:hover {
+	opacity: 1;
+}	
+
+#va {
+	width: 113px;
+	height: 66px;
+	position: absolute;
+	top: 226px;
+	left: 652px;
+	background: url('../img/va.png');
+	opacity: 0.2;
+}
+
+#va:hover {
+	opacity: 1;
+}
+
+#md {
+	width: 69px;
+	height: 46px;
+	position: absolute;
+	top: 213px;
+	left: 702px;
+	background: url('../img/md.png');
+	opacity: 0.2;
+}
+
+#md:hover {
+	opacity: 1;
+}
+
+#de {
+	width: 16px;
+	height: 26px;
+	position: absolute;
+	top: 211px;
+	left: 755px;
+	background: url('../img/de.png');
+	opacity: 0.2;
+}
+
+#de:hover {
+	opacity: 1;
+}
+
+#pa {
+	width: 88px;
+	height: 57px;
+	position: absolute;
+	top: 168px;
+	left: 680px;
+	background: url('../img/pa.png');
+	opacity: 0.2;
+}
+
+#pa:hover {
+	opacity: 1;
+}
+
+#nj {
+	width: 20px;
+	height: 44px;
+	position: absolute;
+	top: 178px;
+	left: 759px;
+	background: url('../img/nj.png');
+	opacity: 0.2;
+}
+
+#nj:hover {
+	opacity: 1;
+}
+
+#ny {
+	width: 91px;
+	height: 80px;
+	position: absolute;
+	top: 105px;
+	left: 690px;
+	background: url('../img/ny.png');
+	opacity: 0.2;
+}
+
+#ny:hover {
+	opacity: 1;
+}
+
+#ct {
+	width: 26px;
+	height: 24px;
+	position: absolute;
+	top: 156px;
+	left: 778px;
+	background: url('../img/ct.png');
+	opacity: 0.2;
+}
+
+#ct:hover {
+	opacity: 1;
+}
+
+#ri {
+	width: 7px;
+	height: 13px;
+	position: absolute;
+	top: 155px;
+	left: 802px;
+	background: url('../img/ri.png');
+	opacity: 0.2;
+}
+
+#ri:hover {
+	opacity: 1;
+}
+
+#ma {
+	width: 46px;
+	height: 27px;
+	position: absolute;
+	top: 137px;
+	left: 779px;
+	background: url('../img/ma.png');
+	opacity: 0.2;
+}
+
+#ma:hover {
+	opacity: 1;
+}
+
+#vt {
+	width: 25px;
+	height: 48px;
+	position: absolute;
+	top: 99px;
+	left: 767px;
+	background: url('../img/vt.png');
+	opacity: 0.2;
+}
+
+#vt:hover {
+	opacity: 1;
+}
+
+#nh {
+	width: 24px;
+	height: 51px;
+	position: absolute;
+	top: 94px;
+	left: 787px;
+	background: url('../img/nh.png');
+	opacity: 0.2;
+}
+
+#nh:hover {
+	opacity: 1;
+}
+
+#me {
+	width: 54px;
+	height: 86px;
+	position: absolute;
+	top: 44px;
+	left: 795px;
+	background: url('../img/me.png');
+	opacity: 0.2;
+}
+
+#me:hover {
+	opacity: 1;
+}
